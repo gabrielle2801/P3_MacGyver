@@ -5,9 +5,9 @@
 ________________________________
 Il faut délivrer MacGyver prisonnier dans un labyrinthe surveillé par un gardien. Trois objets placés aléatoirement dans le labyrinthe pourront aider MacGyver à s'échapper.
 
- - ![Une aiguille](ressource/aiguille.png=44x44)
- - ![Un tube en plastique](/ressource/tube_plastique.png=44x44)
- - ![De l'éther](ressource/ether.png=44x44)
+* Une aiguille
+* Un tube en plastique
+* De l'éther
 
 MacGyver doit utiliser ces objets afin de créer une seringue pour endormir le gardien.
 
@@ -29,6 +29,14 @@ ________________________________
 ________________________________
 
 ```
-to be continued ...
+Pour jouer, il faut lancer le fichier main.py situé dans le fichier src.
+Le jeu possede plusieurs fichier *.py*
+* main.py (lance le jeu)
+* interface.py (elements graphiques du jeu réalisé sur Pygame)
+* model.py (code principal du jeu)
+* player.py (mouvement du joueur / player)
+* contants.py (fichier elements constants)
+**A vous de jouer**
 ```
+![Game](ressource/Game.png)
 :wink:
