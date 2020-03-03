@@ -31,13 +31,14 @@ ________________________________
 ```
 Installer Pygame par le fichier requirements.txt (version pygame 1.9.6)
 Pour jouer, il faut lancer le fichier main.py situé dans le fichier src.
-Le jeu possede plusieurs fichier .py
+Le jeu possede plusieurs fichier >.py
 main.py (lance le jeu)
 interface.py (elements graphiques du jeu réalisé sur Pygame)
 model.py (code principal du jeu)
 player.py (mouvement du joueur / player)
- contants.py (fichier elements constants)
+contants.py (fichier elements constants)
 ```
-**A vous de jouer**
+**A vous de jouer** :wink:
+
 ![Game](/ressource/Game.png)
-:wink:
+
