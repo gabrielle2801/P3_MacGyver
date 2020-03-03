@@ -5,9 +5,9 @@
 ________________________________
 Il faut délivrer MacGyver prisonnier dans un labyrinthe surveillé par un gardien. Trois objets placés aléatoirement dans le labyrinthe pourront aider MacGyver à s'échapper.
 
- - ![Une aiguille](ressource/aiguille.png){width = 50 ; height = 50}
- - ![Un tube en plastique](/ressource/tube_plastique.png){width = 50 ; height = 50}
- - ![De l'éther](ressource/ether.png){width = 50 ; height = 50}
+ - ![Une aiguille](ressource/aiguille.png=44x44)
+ - ![Un tube en plastique](/ressource/tube_plastique.png=44x44)
+ - ![De l'éther](ressource/ether.png=44x44)
 
 MacGyver doit utiliser ces objets afin de créer une seringue pour endormir le gardien.
 
