@@ -1,8 +1,8 @@
 from random import randint
 import pygame
-from interface import display
-from constants import WEAPONS_LIST, MAX_NUMBER_ITEM, Y_SIZE, X_SIZE
-from player import Player
+from src.interface import display
+from src.constants import WEAPONS_LIST, MAX_NUMBER_ITEM, Y_SIZE, X_SIZE
+from src.player import Player
 
 
 class Game:
@@ -49,7 +49,7 @@ class Game:
                     self.message_win)
 
     def load_file(self):
-        with open("maze.txt", 'r') as maze:
+        with open("src/maze.txt", 'r') as maze:
             for y_axe, line in enumerate(maze.readlines()):
                 for x_axe, char in enumerate(line.strip()):
                     self.matrix[y_axe][x_axe] = char

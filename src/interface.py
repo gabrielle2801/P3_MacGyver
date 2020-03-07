@@ -1,7 +1,6 @@
 import pygame
-from constants import SPRITES_COLUMMS, SPRITES_LINES, sprite_size, Y_SIZE, \
+from src.constants import SPRITES_COLUMMS, SPRITES_LINES, sprite_size, Y_SIZE,\
     X_SIZE
-# from model import Game
 
 
 pygame.init()
@@ -12,13 +11,13 @@ window = pygame.display.set_mode(windows_surface)
 rect_window = window.get_rect()
 
 
-IMAGE_REF = {"floor": "ressource/Floor.png",
-             "wall": "ressource/Wall4.png",
-             "player": "ressource/MacGyver.png",
-             "guardian": "ressource/Gardien.png",
-             "needle": "ressource/aiguille.png",
-             "pipe": "ressource/tube_plastique.png",
-             "ether": "ressource/ether.png"
+IMAGE_REF = {"floor": "src/ressource/Floor.png",
+             "wall": "src/ressource/Wall4.png",
+             "player": "src/ressource/MacGyver.png",
+             "guardian": "src/ressource/Gardien.png",
+             "needle": "src/ressource/aiguille.png",
+             "pipe": "src/ressource/tube_plastique.png",
+             "ether": "src/ressource/ether.png"
              }
 
 
@@ -80,5 +79,4 @@ def display(matrix, message, message_item, message_win):
     message_rect = message_win.get_rect()
     message_rect.center = rect_window.center
     window.blit(message_win, message_rect)
-    # window.fill((31, 49, 52, 0), special_flags=pygame.BLEND_RGBA_MULT)
     pygame.display.flip()

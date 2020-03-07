@@ -1,4 +1,4 @@
-from constants import MAX_NUMBER_ITEM, WEAPONS_LIST
+from src.constants import MAX_NUMBER_ITEM, WEAPONS_LIST
 
 
 class Player:
